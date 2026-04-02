@@ -20,7 +20,7 @@ This repository contains my hands-on lab work in bioinformatics, covering sequen
 
 ---
 
-## 🧬 TP53 Mutation Analysis
+## 🧬 TP53 Functional Analysis
 - Performed BLAST and multiple sequence alignment  
 - Identified conserved and mutation-prone regions  
 - Used PyMOL to visualize structural aspects  
