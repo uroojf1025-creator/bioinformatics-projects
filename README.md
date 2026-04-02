@@ -24,16 +24,8 @@ This repository contains my hands-on lab work in bioinformatics, covering sequen
 - Performed BLAST and multiple sequence alignment  
 - Identified conserved and mutation-prone regions  
 - Used PyMOL to visualize structural aspects  
-- Interpreted functional importance of mutation sites  
-
----
-
-## 🧪 Sequence & Structural Analysis
-- Pairwise alignment using EMBOSS (Needle, Water)  
-- Multiple sequence alignment using ClustalW  
-- Phylogenetic analysis using MEGA  
-- Homology modeling using SWISS-MODEL  
-
+- Interpreted functional importance of mutation sites
+   
 ---
 
 ## 🧪 Additional Techniques
