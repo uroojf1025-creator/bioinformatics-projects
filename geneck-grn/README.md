@@ -1,7 +1,7 @@
 # 🧬 Gene Regulatory Network (GRN) using GeNeCK
 
 ## 📌 Overview
-This project focuses on constructing and analyzing a Gene Regulatory Network (GRN) using synthetic gene expression data. The network was inferred using GeNeCK and further analyzed in Cytoscape.
+This project focuses on constructing and analyzing a Gene Regulatory Network (GRN) using synthetic gene expression data. The network was inferred using the GLASSO (Graphical Lasso) algorithm in GeNeCK and further analyzed in Cytoscape.
 
 ---
 
@@ -13,7 +13,7 @@ This project focuses on constructing and analyzing a Gene Regulatory Network (GR
 ---
 
 ## 🛠 Tools & Technologies
-- GeNeCK  
+- GeNeCK (GLASSO algorithm)  
 - Cytoscape  
 - Python (NumPy, Pandas)  
 
@@ -31,20 +31,23 @@ This project focuses on constructing and analyzing a Gene Regulatory Network (GR
 ### 1. Data Generation
 - Generated gene expression dataset using Python  
 - Used normal distribution (NumPy)  
-- Saved data in CSV format  
+- Saved dataset as CSV  
 
-### 2. GRN Construction
+### 2. GRN Construction (GLASSO)
 - Uploaded dataset to GeNeCK  
-- Applied GRN reconstruction algorithm  
-- Generated interaction network  
+- Applied GLASSO (Graphical Lasso) algorithm  
+- Inferred gene regulatory network based on partial correlations  
 
 ### 3. Network Visualization
 - Imported network into Cytoscape  
 - Applied layout for visualization  
 
 ### 4. Network Analysis
-- Identified hub genes based on connectivity  
-- Computed network statistics  
+- Identified hub genes based on node degree  
+- Calculated network properties:
+  - Average degree  
+  - Clustering coefficient  
+  - Path length  
 - Performed module detection using MCODE  
 
 ---
@@ -63,19 +66,21 @@ This project focuses on constructing and analyzing a Gene Regulatory Network (GR
 ![GRN Network](your-image-name.png)
 
 ### 🧩 Module Detection (MCODE)
-- Identified 5 clusters/modules in the network  
-- Modules indicate groups of highly interconnected genes  
-- Suggests functional grouping and regulatory patterns  
+![MCODE Clusters](mcode-clusters.png)
+
+- MCODE identified multiple clusters within the network  
+- Each cluster represents highly interconnected gene groups  
+- Indicates modular organization and coordinated gene regulation  
 
 ---
 
 ## 🧠 Conclusion
-The GRN analysis revealed a highly connected network with significant clustering. The presence of hub genes and multiple modules indicates coordinated gene regulation and structured network organization.
+The GRN constructed using the GLASSO algorithm revealed a highly connected and structured network. The presence of hub genes and MCODE-detected clusters highlights the modular nature of gene regulation and underlying biological patterns.
 
 ---
 
 ## 🚀 Skills Gained
-- Gene regulatory network construction  
+- GRN reconstruction using GLASSO  
 - Network topology analysis  
 - Cytoscape visualization  
 - Module detection using MCODE  
