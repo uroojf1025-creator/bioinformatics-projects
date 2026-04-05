@@ -14,12 +14,21 @@ This repository contains my hands-on lab work in bioinformatics, covering sequen
 
 ## 🧬 Gene Regulatory Network (GRN)
 - Generated gene expression dataset (synthetic)  
-- Applied ARACNE and relevance network methods  
+- Applied MI, ARACNE and relevance network methods  
 - Performed network analysis in Cytoscape  
 - Identified hub genes and basic network properties  
 
 ---
+## 🧬 Gene Regulatory Network (GRN) – GeNeCK
 
+- Generated synthetic gene expression dataset using Python (NumPy, Pandas)  
+- Reconstructed GRN using GeNeCK  
+- Visualized network in Cytoscape  
+- Identified hub genes and analyzed network properties (degree, clustering coefficient, path length)  
+- Detected functional modules using MCODE
+
+---
+  
 ## 🧬 TP53 Functional Analysis
 - Performed BLAST and multiple sequence alignment  
 - Identified conserved and mutation-prone regions  
