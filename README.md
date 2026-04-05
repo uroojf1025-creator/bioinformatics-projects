@@ -27,7 +27,13 @@ This repository contains my hands-on lab work in bioinformatics, covering sequen
 - Interpreted functional importance of mutation sites
    
 ---
+## 🧪 Sequence & Structural Analysis
+- Pairwise and multiple sequence alignment  
+- Phylogenetic tree construction (MEGA)  
+- Primer design and protein structure analysis
 
+  ---
+  
 ## 🧪 Additional Techniques
 - Protein structure visualization and alignment (PyMOL)  
 - Protein–ligand interaction analysis  
